@@ -2,7 +2,7 @@
   <div class="bg-[#131313] min-h-[90vh] flex justify-center items-center"> 
     <div class="w-11/12 md:w-2/3 lg:w-1/2">
         <div class="flex justify-center">
-            <img src="../assets/icon.png" alt="">
+            <img src="../assets/login_logo.png" alt="">
         </div>
         <div class="mt-6">
             <h2 class="text-white text-2xl font-semibold text-center">Login</h2>

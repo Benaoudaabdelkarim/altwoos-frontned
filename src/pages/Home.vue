@@ -37,7 +37,7 @@
                     </div>
                 </div>
             </div>
-            <div class=" relative w-full flex items-center">
+            <div class=" relative w-full flex items-center h-[90vh]">
                 <div class="absolute px-12 pt-24 lg:hidden w-full">
                     <h1 class=" text-6xl font-semibold text-black">
                         {{translation.Find_your_next_home}}
@@ -74,7 +74,7 @@
                         </div>
                     </div>
                 </div>
-                <img class="w-full h-[90vh]" src="../assets/hero.jpg" alt="">
+                <img class="h-[90vh] object-cover" src="../assets/bg.jpg" alt="">
             </div>
         </section>    
         <section class="lg:grid lg:grid-cols-3 lighter-section pt-16">

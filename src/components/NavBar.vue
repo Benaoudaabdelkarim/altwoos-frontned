@@ -2,8 +2,7 @@
     <nav class="flex justify-between items-center w-full py-4 px-4 md:px-12 fixed top-0 inset-x-0 z-50
           bg-brown-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-100">
       <div class="flex items-center">
-          <img class="w-40 hidden md:block" src="../assets/logo_name.png" alt="">
-          <img class="w-10 md:hidden" src="../assets/icon.png" alt="">
+          <img class="w-40 " src="../assets/logo_name.png" alt="">
       </div>
       <div class="hidden md:flex items-center space-x-4 lg:space-x-16 ">
           <div class="flex flex-col justify-center items-center">
