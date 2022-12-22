@@ -5,24 +5,21 @@
     <input type="checkbox" v-model="drawer" data-menu id="menu-opener" hidden>
     <aside class="DrawerMenu" role="menu" id="menu" aria-labelledby="openmenu">
         <nav class="-ml-4 sm: w-80 bg-[#1B1819] px-4">
-            <div class="flex justify-between">
+            <div class="flex justify-between items-end">
                 <div class="mt-4">
                     <img class="w-40" src="../assets/logo_name.png" alt="">
                 </div>
-                <div class=" flex justify-center items-end">
-                    <select class="appearance-none border-transparent bg-transparent px-3
-                        text-white font-semibold focus:ring-0 focus:border-none w-24 pb-1.5 border-b-4" name="" id=""
-                        @change="changeLang()" v-model="lang">
-                        <option class="text-black flex" value="en">
-                            <p>English</p>
-                        </option>
-                        <option class="text-black" value="fr">
-                            <p> Francais</p>
-                        </option>
-                    </select>
-                </div>
+                <select class="appearance-none border-transparent bg-transparent text-center
+                    text-white font-semibold focus:ring-0 focus:border-none w-24 pb-1.5 border-b-4" name="" id=""
+                    @change="changeLang()" v-model="lang">
+                    <option class="text-black flex" value="en">
+                    <p>English</p>
+                    </option>
+                    <option class="text-black" value="fr">
+                        <p> Francais</p>
+                    </option>
+                </select>
             </div>
-            
             <div class="text-white text-xl font-semibold mt-12 mx-4 flex flex-col justify-center items-center gap-6">
                 <router-link to="/" @click="(drawer=false)">{{translation.Home}}</router-link>
                 <router-link to="/services" @click="(drawer=false)">{{translation.Services}}</router-link>
@@ -44,17 +41,16 @@ export default {
             lang : "en"
         }
     },
-    methods: {
-        changeLang(){
-            this.$store.dispatch("changeTranslation",this.lang)
-        },
-        
-    },
     computed: {
         Drawer() {
             return this.$store.state.drawer 
         },
         translation(){ return this.$store.state.translation },
+    },
+    methods: {
+        changeLang(){
+            this.$store.dispatch("changeTranslation",this.lang)
+        },
     },
 }
 </script>

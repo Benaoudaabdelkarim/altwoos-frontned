@@ -28,18 +28,25 @@
                   </option>
                   <option class="text-black" value="fr">
                     <p> Francais</p>
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="6cm" height="4cm" viewBox="-10 -10 3020 2020"> <g id="French_Flag_by_Adam_Stanislav"> <rect fill="rgb(0%,14%,58%)" x="0" y="0" width="1010" height="2000" /> <rect fill="rgb(97%,97%,97%)" x="1000" y="0" width="1010" height="2000" /> <rect fill="rgb(93%,16%,22%)" x="2000" y="0" width="1000" height="2000" /> <rect fill="none" stroke="rgb(55%,55%,55%)" stroke-width="10" x="0" y="0" width="3000" height="2000" /> </g> </svg>
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="6cm" height="4cm" viewBox="-10 -10 3020 2020">
+                        <g id="French_Flag_by_Adam_Stanislav">
+                            <rect fill="rgb(0%,14%,58%)" x="0" y="0" width="1010" height="2000" />
+                            <rect fill="rgb(97%,97%,97%)" x="1000" y="0" width="1010" height="2000" />
+                            <rect fill="rgb(93%,16%,22%)" x="2000" y="0" width="1000" height="2000" />
+                            <rect fill="none" stroke="rgb(55%,55%,55%)" stroke-width="10" x="0" y="0" width="3000" height="2000" />
+                        </g>
+                    </svg>
                     </option>
               </select>
-          </div>
-          
-      </div>
-      <div class="flex flex-col justify-center items-center" v-if="Token">
-            <router-link to="/dashboard" class="text-white font-semibold pb-1.5 border-b-4 whitespace-nowrap border-transparent"> {{translation.Dashboard}} </router-link>
+            </div>
+            <div class="flex flex-col justify-center items-center" v-if="Token">
+                <router-link to="/dashboard" class="text-white font-semibold pb-1.5 border-b-4 whitespace-nowrap border-transparent"> {{translation.Dashboard}} </router-link>
+            </div>
+            <div class="flex flex-col justify-center items-center" v-else>
+                <router-link to="/login" class="text-white font-semibold pb-1.5 border-b-4 whitespace-nowrap border-transparent"> {{translation.Login}} </router-link>
+            </div>
         </div>
-        <div class="flex flex-col justify-center items-center" v-else>
-            <router-link to="/login" class="text-white font-semibold pb-1.5 border-b-4 whitespace-nowrap border-transparent"> {{translation.Login}} </router-link>
-        </div>
+      
       <Drawer/>
     </nav>
   </template> 

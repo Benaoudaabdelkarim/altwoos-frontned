@@ -88,8 +88,9 @@
             </div>
             <div class=" flex flex-col">
                 <label for="state" class="text-xl font-medium mb-1">State</label>
-                <select id="state" type="text"  placeholder="enter the title" v-model="real.localisation[1]"
+                <input id="state" type="text"  placeholder="enter the title" v-model="real.localisation[1]"
                     class="rounded-md py-2 px-6 bg-slate-600 text-gray-200 placeholder:text-gray-300">
+                <select name="state" id="state" v-model="real.localisation[1]" class="rounded-md py-2 px-6 bg-slate-600 text-gray-200 placeholder:text-gray-300">
                     <option value="Abu Dhabi">Abu Dhabi</option>
                     <option value="Dubai">Dubai</option>
                     <option value="Sharjah">Sharjah</option>
@@ -152,7 +153,7 @@ export default {
                 bethrooms:null,
                 price_sell:null,
                 price_rent:null,
-                localisation:["Emirates"],
+                localisation:["Abu Dhabi"],
                 tags:[],
                 images:[]
             },

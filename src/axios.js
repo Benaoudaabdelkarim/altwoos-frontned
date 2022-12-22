@@ -2,7 +2,7 @@ import axios from "axios";
 import store from "./store";
 
 const axiosClient = axios.create({
-  baseURL: "http://127.0.0.1:8000/api" //"https://api.tawoosrealty.com/api",
+  baseURL: "https://api.tawoosrealty.com/api",
 });
 //php artisan serve --host=192.168.1.106 --port=8080
 

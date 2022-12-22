@@ -67,5 +67,6 @@
     "Subject": "Subject",
     "Enter_your_subject": "Enter your subject",
     "Message": "Message",
-    "Enter_your_message": "Enter your message"
+    "Enter_your_message": "Enter your message", 
+    "ask_info":"Ask for informations"
     }
