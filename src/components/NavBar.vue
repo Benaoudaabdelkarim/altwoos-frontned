@@ -28,7 +28,7 @@
                     <p> Francais</p>
                   </option>
                   <option class="text-black" value="es">
-                    <p> Espagnol</p>
+                    <p> espagnol</p>
                   </option>
               </select>
           </div>
