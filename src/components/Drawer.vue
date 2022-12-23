@@ -18,6 +18,9 @@
                     <option class="text-black" value="fr">
                         <p> Francais</p>
                     </option>
+                    <option class="text-black" value="es">
+                        <p> Espagnol</p>
+                    </option>
                 </select>
             </div>
             <div class="text-white text-xl font-semibold mt-12 mx-4 flex flex-col justify-center items-center gap-6">

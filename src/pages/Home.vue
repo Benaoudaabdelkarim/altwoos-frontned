@@ -39,7 +39,7 @@
             </div>
             <div class=" relative w-full flex items-center h-[90vh]">
                 <div class="absolute px-12 pt-24 lg:hidden w-full">
-                    <h1 class=" text-6xl font-semibold text-black">
+                    <h1 class=" text-6xl font-semibold text-white">
                         {{translation.Find_your_next_home}}
                     </h1>   
                     <p class=" font-medium text-2xl text-white">

@@ -28,18 +28,17 @@
                     <p> Francais</p>
                   </option>
                   <option class="text-black" value="es">
-                    <p> espagnol</p>
+                    <p> Espagnol</p>
                   </option>
               </select>
           </div>
-      </div>
-      <div class="flex flex-col justify-center items-center" v-if="Token">
+          <div class="flex flex-col justify-center items-center" v-if="Token">
             <router-link to="/dashboard" class="text-white font-semibold pb-1.5 border-b-4 whitespace-nowrap border-transparent"> {{translation.Dashboard}} </router-link>
         </div>
         <div class="flex flex-col justify-center items-center" v-else>
             <router-link to="/login" class="text-white font-semibold pb-1.5 border-b-4 whitespace-nowrap border-transparent"> {{translation.Login}} </router-link>
         </div>
-      
+      </div>
       <Drawer/>
     </nav>
   </template> 
