@@ -12,10 +12,10 @@
               <router-link to="/services" class="text-white font-semibold pb-1.5 border-b-4 border-transparent"> {{translation.Services}} </router-link>
           </div>
           <div class="flex flex-col justify-center items-center">
-              <router-link to="/about" class="text-white font-semibold pb-1.5 border-b-4 border-transparent"> {{translation.About}} </router-link>
+              <router-link to="/about" class="text-white font-semibold pb-1.5 border-b-4 border-transparent whitespace-nowrap"> {{translation.About}} </router-link>
           </div>
-          <div class="flex flex-col justify-center items-center">
-              <router-link to="/contactUs" class="text-white font-semibold pb-1.5 border-b-4 whitespace-nowrap border-transparent"> {{translation.Contact_us}}</router-link>
+          <div class="flex flex-col justify-center items-center ">
+              <router-link to="/contactUs" class="text-white font-semibold pb-1.5 border-b-4 border-transparent whitespace-nowrap"> {{translation.Contact_us}}</router-link>
           </div>
           <div class="flex flex-col justify-center items-center">
               <select class="appearance-none border-transparent bg-transparent 
