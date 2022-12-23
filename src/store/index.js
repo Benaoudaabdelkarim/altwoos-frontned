@@ -3,6 +3,7 @@ import axiosClient from "../axios";
 import en from "../lang/en.json";
 import fr from "../lang/fr.json";
 import ar from "../lang/ar.json";
+import es from "../lang/esp.json";
 
 const store = createStore({
     state:{
@@ -44,7 +45,11 @@ const store = createStore({
                 commit("setTranslation", ar);
                 sessionStorage.setItem("Lang", "ar");
                 break;
-              default:
+            case "es":
+                commit("setTranslation", es);
+                sessionStorage.setItem("Lang", "es");
+                break;
+            default:
                 commit("setTranslation", fr);
             }
         },

@@ -23,10 +23,10 @@
                 @change="changeLang()" v-model="lang">
                   <option class="text-black flex" value="en">
                     <p>English</p>
-                    <img src="../assets/frenchflagframed.svg" alt="">
                   </option>
                   <option class="text-black" value="fr">
                     <p> Francais</p>
+<<<<<<< Updated upstream
                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="6cm" height="4cm" viewBox="-10 -10 3020 2020">
                         <g id="French_Flag_by_Adam_Stanislav">
                             <rect fill="rgb(0%,14%,58%)" x="0" y="0" width="1010" height="2000" />
@@ -44,6 +44,20 @@
             <div class="flex flex-col justify-center items-center" v-else>
                 <router-link to="/login" class="text-white font-semibold pb-1.5 border-b-4 whitespace-nowrap border-transparent"> {{translation.Login}} </router-link>
             </div>
+=======
+                  </option>
+                  <option class="text-black" value="es">
+                    <p> Espagnol</p>
+                  </option>
+              </select>
+          </div>
+      </div>
+      <div class="flex flex-col justify-center items-center" v-if="Token">
+            <router-link to="/dashboard" class="text-white font-semibold pb-1.5 border-b-4 whitespace-nowrap border-transparent"> {{translation.Dashboard}} </router-link>
+        </div>
+        <div class="flex flex-col justify-center items-center" v-else>
+            <router-link to="/login" class="text-white font-semibold pb-1.5 border-b-4 whitespace-nowrap border-transparent"> {{translation.Login}} </router-link>
+>>>>>>> Stashed changes
         </div>
       
       <Drawer/>
