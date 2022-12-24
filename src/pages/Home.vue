@@ -43,7 +43,7 @@
                     <h1 class=" text-3xl font-semibold text-black">
                         {{translation.Find_your_next_home}}
                     </h1>   
-                    <p class=" font-medium text-2xl text-white">
+                    <p class=" font-medium text-1xl text-white">
                         {{translation.variety_of_properties}}
                     </p>
                     <!-- <div class=" text-white text-xl font-semibold z-50">
