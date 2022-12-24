@@ -2,11 +2,11 @@
     <div class="bg-[#F4BE5A] h-3">
 
     </div>
-    <div class="bg-[#131313] grid lg:grid-cols-5 w-full py-20 px-12 lg:px-24">
+    <div class="bg-[#131313] grid  py-20 px-12 lg:px-24">
         <div class=" col-span-2"> 
             <h3 class="text-white text-xl font-bold">{{translation.Contact_US}}</h3>
         </div>  
-        <div class="grid md:grid-cols-2 xl:grid-cols-4 w-full  ">
+        <div class="grid md:grid-cols-4 xl:grid-cols-4 w-full  ">
             <div>
                 <p class="text-[#CECECE50] font-semibold mt-8 mb-2">{{translation.Phone}} : +971 04 321 1210</p>
                 <p class="text-[#CECECE50] font-semibold flex gap-2 items-start mb-2">{{translation.Phone}} : +971 54 463 7060
