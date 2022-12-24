@@ -1,7 +1,8 @@
 <template>
     <div class="bg-[#F4BE5A] h-3">
+
     </div>
-    <div class="bg-[#131313] py-20 px-12 lg:px-24">
+    <div class="bg-[#131313] grid lg:grid-cols-5 w-full py-20 px-12 lg:px-24">
         <div class=" col-span-2"> 
             <h3 class="text-white text-xl font-bold">{{translation.Contact_US}}</h3>
         </div>  
