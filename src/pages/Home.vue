@@ -2,7 +2,7 @@
     <div class="bg-[#231F20] min-h-screen">
         <section class="grid lg:grid-cols-2 relative">
             <div class="px-24 mt-24 pt-24 hidden lg:block">
-                <h1 class=" text-6xl font-semibold text-[#F4BE5A] ">
+                <h1 class=" text-6xl font-semibold text-white">
                     {{translation.Find_your_next_home}}
                 </h1>   
                 <p class=" text-2xl text-[#F4BE5A] mt-4">
@@ -40,10 +40,10 @@
             </div>
             <div class=" relative w-full flex items-center h-[90vh]">
                 <div class="absolute px-12 pt-24 lg:hidden w-full">
-                    <h1 class=" text-6xl font-semibold text-[#F4BE5A]">
+                    <h1 class=" text-3xl font-semibold text-black">
                         {{translation.Find_your_next_home}}
                     </h1>   
-                    <p class=" font-medium text-2xl text-[#F4BE5A]">
+                    <p class=" font-medium text-2xl text-white">
                         {{translation.variety_of_properties}}
                     </p>
                     <!-- <div class=" text-white text-xl font-semibold z-50">
@@ -75,7 +75,7 @@
                         </div>
                     </div> -->
                 </div>
-                <img class="h-[90vh] object-cover" src="../assets/pexels-expect-best-323780.jpg" alt="">
+                <img class="h-[90vh] object-cover" src="../assets/hero.jpg" alt="">
             </div>
         </section>    
         <section class="lg:grid lg:grid-cols-3 lighter-section pt-16">
