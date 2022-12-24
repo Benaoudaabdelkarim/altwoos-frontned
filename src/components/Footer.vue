@@ -25,6 +25,7 @@
                 </p>
                 <p class="text-[#CECECE50] font-semibold mb-2">
                     {{translation.renting_houses}}
+                    
                 </p>
             </div>
             <div class="flex gap-4 mt-16 mb-16 lg:mb-0">
