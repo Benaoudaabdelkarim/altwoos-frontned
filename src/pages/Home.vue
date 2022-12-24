@@ -2,14 +2,14 @@
     <div class="bg-[#231F20] min-h-screen">
         <section class="grid lg:grid-cols-2 relative">
             <div class="px-24 mt-24 pt-24 hidden lg:block">
-                <h1 class=" text-6xl font-semibold text-white ">
+                <h1 class=" text-6xl font-semibold text-[#F4BE5A] ">
                     {{translation.Find_your_next_home}}
                 </h1>   
-                <p class=" text-2xl text-[#dfdfdf] mt-4">
+                <p class=" text-2xl text-[#F4BE5A] mt-4">
                     {{translation.variety_of_properties}}
                 </p>
                 
-                <div class=" absolute text-white text-xl font-semibold mt-12 z-50">
+                <!-- <div class=" absolute text-white text-xl font-semibold mt-12 z-50">
                     <div class="flex">
                         <label for="sell" class="px-8  py-2 rounded-tl-xl" :class="[category=='sell'?'glass-on-home':'glass-off-home']">
                             <p>{{translation.Sell}}</p>
@@ -36,17 +36,17 @@
                             </router-link>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class=" relative w-full flex items-center h-[90vh]">
                 <div class="absolute px-12 pt-24 lg:hidden w-full">
-                    <h1 class=" text-6xl font-semibold text-black">
+                    <h1 class=" text-6xl font-semibold text-[#F4BE5A]">
                         {{translation.Find_your_next_home}}
                     </h1>   
-                    <p class=" font-medium text-2xl text-white">
+                    <p class=" font-medium text-2xl text-[#F4BE5A]">
                         {{translation.variety_of_properties}}
                     </p>
-                    <div class=" text-white text-xl font-semibold z-50">
+                    <!-- <div class=" text-white text-xl font-semibold z-50">
                         <div class="flex mt-12">
                             <label for="sell" class="px-8  py-2 rounded-tl-xl" :class="[category=='sell'?'glass-on-home':'glass-off-home']">
                                 <p>{{translation.Sell}}</p>
@@ -73,7 +73,7 @@
                                 </router-link>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <img class="h-[90vh] object-cover" src="../assets/bg.jpg" alt="">
             </div>
