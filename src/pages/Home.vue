@@ -8,6 +8,7 @@
                 <p class=" text-2xl text-[#dfdfdf] mt-4">
                     {{translation.variety_of_properties}}
                 </p>
+                
                 <div class=" absolute text-white text-xl font-semibold mt-12 z-50">
                     <div class="flex">
                         <label for="sell" class="px-8  py-2 rounded-tl-xl" :class="[category=='sell'?'glass-on-home':'glass-off-home']">
